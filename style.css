@@ -1,0 +1,35 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@font-face {
+    font-family:'studentAcademlo'; /*asi nombré a este tipo de letra*/
+    src: url(./CascadiaCode.ttf);
+}
+
+.home{
+    background-image: url(https://images.pexels.com/photos/139764/pexels-photo-139764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    position: relative;
+    font-size: 2rem;
+    font-family: "studentAcademlo";
+    font-weight: bold;
+    color: #03001C;
+    backdrop-filter: blur(5px);
+    text-shadow: 0px 0px 16px #472183;
+    
+}
+.g26{
+    color: #FB2576
+}
+.section1{
+    min-height: 100vh;
+}
